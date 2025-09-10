@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download Page</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body {
+            margin: 0;
+            background-color: rgba(4, 6, 6, 1); /* This is (4,6,6,255) */
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        a.download-button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #1a1a1a;
+            border: 2px solid #ffffff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        a.download-button:hover {
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Download Your File</h1>
+        <p>Click the button below to download pluto.</p>
+        <a class="download-button" href="Pluto.zip" download>Download Now</a>
+    </div>
+</body>
+</html>
