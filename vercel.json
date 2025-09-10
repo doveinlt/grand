@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/pluto-download", "destination": "/pluto-download.html" }
+  ]
+}
