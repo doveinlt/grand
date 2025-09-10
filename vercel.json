@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/pluto-download", "destination": "/pluto-download.html" }
+    { "source": "/pluto-download", "destination": "/pluto-download.html" },
+    { "source": "/keys", "destination": "/keys.html" }
   ]
 }
